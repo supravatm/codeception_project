@@ -9,6 +9,7 @@ Codeception PHP Testing Framework is designed to work just out of the box. This 
 
 
 PHP version minimum 5.4
+
 PHP Composer component
 
 ### Installation :
