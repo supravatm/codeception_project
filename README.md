@@ -1,24 +1,24 @@
 codeception_project
 ===================
 
-Codeception : 
-==============
+##  Codeception : 
+
 Codeception PHP Testing Framework is designed to work just out of the box. This means its installation requires minimal steps and no external dependencies preinstalled (except PHP, of course). Only one configuration step should be taken and you are ready to test your web application from an eye of actual user. 
 
-Requrement :
-============
+## Requrement :
+
 
 PHP version minimum 5.4
 PHP Composer component
 
-Installation :
-=================
+## Installation :
+
 
  
 
 1. Open you terminal
 
-2. Go to /var/www/html/ & create a directory , I create a directory name as "codecept_project"
+2. Go to /var/www/html/ & create a directory , I create a directory name as ### "codecept_project"
 
 3. Create a composer.json file & past the folling contain.. 
 
