@@ -1,24 +1,21 @@
 codeception_project
 ===================
 
-##  Codeception : 
+###  Codeception : 
 
 Codeception PHP Testing Framework is designed to work just out of the box. This means its installation requires minimal steps and no external dependencies preinstalled (except PHP, of course). Only one configuration step should be taken and you are ready to test your web application from an eye of actual user. 
 
-## Requrement :
+### Requrement :
 
 
 PHP version minimum 5.4
 PHP Composer component
 
-## Installation :
-
-
- 
+### Installation :
 
 1. Open you terminal
 
-2. Go to /var/www/html/ & create a directory , I create a directory name as ### "codecept_project"
+2. Go to /var/www/html/ & create a directory , I create a directory name as codecept_project"
 
 3. Create a composer.json file & past the folling contain.. 
 
@@ -33,7 +30,7 @@ PHP Composer component
 ```
 
 4. Go to your created directory 
-```javascript
+```sh
 
 	$ cd /var/www/html/codecept_project/
 	$ composer install --dev
@@ -42,11 +39,11 @@ PHP Composer component
 
 
 5. You can see a directory has been created name like "vendor", then run the following command
-```javascript
+```sh
 	$ php codecept.phar bootstrap
 ```
 6. Generate your first acceptance test. Acceptance tests emulate behavior of a real user visiting your site.
-```javascript
+```sh
 
 	$ php codecept.phar generate:cept acceptance Welcome
 ```
@@ -63,11 +60,11 @@ PHP Composer component
 
 ```
 8. Run 
-```javascript
+```sh
 	php codecept.phar run
 ```
 9. If you did everything right and your app has "Home" text on frontpage you will see this in output 
-```javascript
+```sh
 	Suite acceptance started 
 	Trying to ensure that frontpage works (WelcomeCept.php) - Ok
 	Suite functional started
