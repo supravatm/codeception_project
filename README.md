@@ -31,10 +31,8 @@ PHP Composer component
 
 4. Go to your created directory 
 ```sh
-
 	$ cd /var/www/html/codecept_project/
 	$ composer install --dev
-	
 ```
 
 
@@ -64,7 +62,7 @@ PHP Composer component
 	php codecept.phar run
 ```
 9. If you did everything right and your app has "Home" text on frontpage you will see this in output 
-```sh
+```javascript
 	Suite acceptance started 
 	Trying to ensure that frontpage works (WelcomeCept.php) - Ok
 	Suite functional started
