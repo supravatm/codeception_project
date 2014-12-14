@@ -29,7 +29,7 @@ PHP Composer component
 	}
 ```
 
-4. Go to your created directory 
+4.  Go to your created directory 
 ```sh
 	$ cd /var/www/html/codecept_project/
 	$ composer install --dev
@@ -40,12 +40,12 @@ PHP Composer component
 ```sh
 	$ php codecept.phar bootstrap
 ```
-6. Generate your first acceptance test. Acceptance tests emulate behavior of a real user visiting your site.
+6.  Generate your first acceptance test. Acceptance tests emulate behavior of a real user visiting your site.
 ```sh
 
 	$ php codecept.phar generate:cept acceptance Welcome
 ```
-7. Configure Acceptance Tests 
+7.  Configure Acceptance Tests 
 
    Please make sure your local dev serveris running.  Put application URL into:  tests/acceptance.suite.yml 
 ```javascript
@@ -57,11 +57,11 @@ PHP Composer component
       			url: '{YOUR APP'S URL}'
 
 ```
-8. Run 
+8.  Run 
 ```sh
 	php codecept.phar run
 ```
-9. If you did everything right and your app has "Home" text on frontpage you will see this in output 
+9.  If you did everything right and your app has "Home" text on frontpage you will see this in output 
 ```javascript
 	Suite acceptance started 
 	Trying to ensure that frontpage works (WelcomeCept.php) - Ok
