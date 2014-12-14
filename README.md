@@ -22,6 +22,7 @@ Installation :
 
 3. Create a composer.json file & past the folling contain.. 
 
+```javascript
 	{
 		"require" :{
 		},
@@ -29,19 +30,30 @@ Installation :
 			"codeception/codeception": "2.0.8"
 		}
 	}
+```
+
 4. Go to your created directory 
+```javascript
+
 	$ cd /var/www/html/codecept_project/
 	$ composer install --dev
+	
+```
+
 
 5. You can see a directory has been created name like "vendor", then run the following command
+```javascript
 	$ php codecept.phar bootstrap
+```
 6. Generate your first acceptance test. Acceptance tests emulate behavior of a real user visiting your site.
-	$ php codecept.phar generate:cept acceptance Welcome
+```javascript
 
+	$ php codecept.phar generate:cept acceptance Welcome
+```
 7. Configure Acceptance Tests 
 
    Please make sure your local dev serveris running.  Put application URL into:  tests/acceptance.suite.yml 
-
+```javascript
 	class_name: AcceptanceGuy 
 		modules: 
 		enabled: [PhpBrowser, AcceptanceHelper]
@@ -49,13 +61,13 @@ Installation :
   			PhpBrowser:
       			url: '{YOUR APP'S URL}'
 
-
+```
 8. Run 
-
+```javascript
 	php codecept.phar run
-
+```
 9. If you did everything right and your app has "Home" text on frontpage you will see this in output 
-
+```javascript
 	Suite acceptance started 
 	Trying to ensure that frontpage works (WelcomeCept.php) - Ok
 	Suite functional started
@@ -63,7 +75,7 @@ Installation :
 
 	Time: 1 second, Memory: 21.00Mb
 	OK (1 test, 1 assertions)
-
+```
 That's it.
 
 
